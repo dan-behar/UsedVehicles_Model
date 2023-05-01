@@ -1,4 +1,4 @@
-# UsedVehicles_Model (IN PROGRESS)
+# UsedVehicles_Model
 The aim of this Machine Learning Model exercise is to create a regression model that can predict the price of used cars. The dataset that I used came from UK.
 
 #### Structure of the notebook:
@@ -8,7 +8,10 @@ The aim of this Machine Learning Model exercise is to create a regression model 
 * `Best Model`: The prediction of the test data with the best model
 
 #### Description of the repo:
-
+* `Test.csv`: The dataset without the variable *price*
+* `Train.csv`: The dataset with the variable *price*, which is the variable to predict. This dataset was used to create the model
+* `script.ipynb`: Jupyter Notebook with all the creation process
+* `solutions.csv`: A CSV file with the answers. This competition was submitted in Kaggle and it requiered a specific format to upload the answers
 
 #### Variables:
 * `model`: Model of the car
